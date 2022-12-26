@@ -3,7 +3,7 @@ def addMoney(balance, amount):
     return balance
 
 def showMoney(balance):
-    print("Your balance is: " + balance +"$")
+    print("Your balance is: " + str(balance) +"$")
 
 def playMoney(balance, cost):
     balance -= cost
